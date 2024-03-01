@@ -1,68 +1,124 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>title</title>
-</head>
-<body>
-    <a href="#"><img src="logo.svg.png" alt="Logo"></a>
-    <nav>
-        <ul>
-            
-            <li><a href="#">Destinations</a></li>
-            <li><a href="#">Activities</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Log in</li>
-        </ul>
-    </nav>
-    <main>
-        <div class="left">
-            <h1>Des Souvenirs De
-                Voyage Que Vous
-                N'oublierez Jamais.
-            </h1>
-            <p>Des escapades locales aux aventures lointaines, trouvez ce qui vous
-                rend heureux.n'importe quand n'importe où
-            </p>
-            <div>
-                <div class="explorer_button">
-                    <a href="#" class="explorer">Explorer plus</a>
-                </div>
-            </div>
-        </div>
-        <div class="right">
-            <a href="#"><img src="Big_pic.png" alt="Bigpic"></a>
-        </div>
-        <div>
-            <h3>Pourquoi nous?</h3>
-            <a href="#"><img src="ticket.svg.png" alt="Logo"></a>
-            <a href="#"><img src="hot-air-balloon.svg.png" alt="Logo"></a>
-            <a href="#"><img src="diamond.svg fill.png" alt="Logo"></a>
-            <a href="#"><img src="medal.svg fill.png" alt="Logo"></a>
-        </div>
-        <div>
-            <h5>Flexibilité ultime</h5>
-            <h5>Expériences mémorables</h5>
-            <h5>Qualité</h5>
-            <h5>Award-winning support</h5>
-        </div>
-        <div>
-            <p>Vous avez le contrôle, avec gratuité
-                options d'annulation et de paiement pour
-                satisfaire n'importe quel plan ou budget.
-            </p>
-            <p>Parcourez et réservez des visites et des
-                activités tellement incroyable, tu voudras
-                le dire à tonamis.
-            </p>
-            <p>Normes de haute qualité. Des millions de
-                Commentaires.
-            </p>
-            <p>Nouveau prix? Nouveau plan? Aucun
-                problème. Nous sommes là pour vous
-                aider, 24h/24 et 7j/7.
-            </p>
-        </div>
-    </main>
-</body>
-</html>
+
+body{
+    margin :0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Viatourslogo{
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+}
+header{
+    background-color:rgba(249, 221, 212, 0.348);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 75px;
+    padding-top: 12px;
+    padding-left: 0%;
+    margin-left : -90px;
+}
+.button{
+    background-color: hwb(25 23% 9%);
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    border: none;
+    width: 80px;
+}
+nav{
+    margin-right: 100px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+    font-size: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Middle page where we have big pic*/
+
+main {
+    display: flex;
+    gap: 4em;
+    margin-top: 6%;
+    padding-left: 6%;
+}
+
+.left {
+    width: 45%;
+    padding-top: 10%;
+}
+
+.right{
+    flex-grow: 1;
+    padding-left: 0%;
+    
+}
+
+h1{
+    font-size: 54px;
+    margin: 0;
+}
+
+.explorer{
+    background-color: rgb(249, 157, 91);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 1em 1em;
+}
+
+.Log_in{
+    background-color: rgb(249, 157, 91);
+    font-size: large;
+    font-weight: bold;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color:rgba(249, 221, 212, 0.348);
+    justify-content: start;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+footer h3 {
+    margin-bottom: 1px;
+}
+nav{
+    margin: 0%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+    margin-left: -72px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sections{
+    display: flex;
+}
+section {
+    padding-left: 50px;
+    padding-bottom: 80px;
+
+}
+.Pourquoi{
+    padding-left: 50px;
+    padding-top: 60px;
+}
